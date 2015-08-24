@@ -5,12 +5,14 @@
 "Различные утилиты и инструменты для работы с классами"
 
 class AttrDisplay:
-'''
-Realizuant inherited method overload output operation showing
-class names and copies of all the attributes in the form name = value pairs,
-available copies (excluding the attributes inherited from the class).
-It can be added to any Slassi and operate with any instances.
-'''
+    """
+
+    Realizuant inherited method overload output operation showing
+    class names and copies of all the attributes in the form name = value pairs,
+    available copies (excluding the attributes inherited from the class).
+    It can be added to any Slassi and operate with any instances.
+    
+    """
 
     def getherAttrs (self):
         attrs = []
@@ -29,11 +31,11 @@ if __name__ == '__main__':
             self.attr2 = TopTest.count + 1
             TopTest.count + 2
             
-        class SubTest(TopTest):
-            pass
+    class SubTest(TopTest):
+        pass
         
-        X,Y = TopTest(), SubTest()
-        print (X)                   #Выведет все атрибуты экземпляра
-        print (Y)                   #Выведет имя класса. самого близкого в дереве наследования
-raw_input('help')
+    X,Y = TopTest(), SubTest()
+    print (X)                   #Выведет все атрибуты экземпляра
+    print (Y)                   #Выведет имя класса. самого близкого в дереве наследования
+
         
