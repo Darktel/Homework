@@ -1,7 +1,7 @@
 ﻿#!usr/bin/env python
 # -*- coding^ utf-8 -*-
 
- # файл classtools.py (новый)
+ # file classtools.py (new)
 "Различные утилиты и инструменты для работы с классами"
 
 class AttrDisplay:
