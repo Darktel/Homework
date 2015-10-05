@@ -8,7 +8,7 @@ def translit(Mystring):
 
     """
 
-    RusString = 'а,б,в,г,д,е,ё,ж,з,и,й,к,л,м,н,о,п,р,с,т,у,ф,х,ц,ч,ш,щ,ы,ь,ъ,э,ю,я,*'
+    RusString = 'Р°,Р±,РІ,Рі,Рґ,Рµ,С‘,Р¶,Р·,Рё,Р№,Рє,Р»,Рј,РЅ,Рѕ,Рї,СЂ,СЃ,С‚,Сѓ,С„,С…,С†,С‡,С€,С‰,С‹,СЊ,СЉ,СЌ,СЋ,СЏ,*'
     EngString = "a,b,v,g,d,e,yo,zh,z,i,j,k,l,m,n,o,p,r,s,t,u,f,h,c,ch,sh,xh,y,',`,q,ju,ya,*"
 
     RusChar = RusString.split(',')
@@ -31,5 +31,5 @@ def translit(Mystring):
     return translitString
 
 
-if __main__ == '__name__':
-    print(translit('Прошу, переведи мне эту строчку!'))
+if '__main__' == '__name__':
+    print(translit('РџСЂРѕС€Сѓ, РїРµСЂРµРІРµРґРё РјРЅРµ СЌС‚Сѓ СЃС‚СЂРѕС‡РєСѓ!'))
