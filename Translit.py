@@ -32,4 +32,5 @@ def translit(Mystring):
 
 
 if '__main__' == '__name__':
-    print(translit('Прошу, переведи мне эту строчку!'))
+    testString = translit('Прошу, переведи мне эту строчку!')
+    print(testString)
